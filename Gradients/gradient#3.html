@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gradient#3</title>
+	<style>
+		body {
+			height: 640px;
+			background-image: linear-gradient(to right, black 50%, white 50%, white 100%);
+		}
+
+		div.block {
+			width: 40%;
+			height: 640px;
+			padding: 2%;
+			margin: 1%;
+		}
+
+		.left {
+			float: left;
+		}
+
+		.right {
+			float: right;
+		}
+
+		div.block.left {
+			color: white;
+			border: 1px dashed white;
+		}
+
+		div.block.right {
+			color: black;
+			border: 1px dashed black;
+		}
+	</style>
+</head>
+<body>
+	<div class="block left"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tenetur mollitia cumque dignissimos ex accusamus sequi delectus inventore dolorum earum voluptates, perspiciatis tempora, deserunt possimus, iusto minus illum sed reprehenderit.</p></div>
+	<div class="block right"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia veniam quae, nemo sapiente aspernatur modi veritatis ipsam aliquid voluptatem, error, qui! Vero velit, quaerat minus libero maxime animi earum rem.</p></div>
+</body>
+</html>
